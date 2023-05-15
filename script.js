@@ -7,7 +7,25 @@ $(function () {
 var todayDate = dayjs("2023-05-15").format("dddd, MMMM D, YYYY")
 $("#currentDay").text(todayDate);
 
-var now = dayjs()
+function timeTracker() {
+//gets current time
+var now = dayjs().hour();
+
+$(".time-block").each(function(){
+    var timeBlock = parseInt($(this).attr("id").split("hour")[1]);
+
+if (timeBlock === now) {
+    $(this).addClass("present")
+} else if (timeBlock < now) {
+    $(this).addClass("past")
+} else {
+    $(this).addClass("future")
+}
+console.log(timeBlock);
+
+})}
+timeTracker()
+
 
 
 // TODO: Add a listener for click events on the save button. This code should
