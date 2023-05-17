@@ -4,8 +4,8 @@ Simple calendar application
 
 - The motivation behind this project was to create a simple work day planner.
 - This project was built to help users with time management on their own personal or work related projects.
-- 
-- What did you learn?
+- The problem this project solves is that it call help the user to get tasks completed on time.
+- I learned how to efficiently use localStorage as well as use timeblocks to display different colors depending on the time of day.
 
 ## Table of Contents (Optional)
 
@@ -17,13 +17,10 @@ What are the steps required to install your project? Provide a step-by-step desc
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+To use this website, you must click on the deployment link, then you can start to enter in any projects or events into the designated timeblock of the planner. All data will be saved if refreshed or closed out of the window entirely. 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+![ScreenShot](https://github.com/Christina2208/Work-Day-Scheduler/blob/main/assests/images/Screen%20Shot%202023-05-17%20at%205.31.45%20PM.png)
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 
 ## Credits
 
